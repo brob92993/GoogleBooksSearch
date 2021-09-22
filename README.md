@@ -27,7 +27,7 @@ To start the app in the CLI : "npm start"
 
 The video below is a walkthrough of the application showing both the search and save components. 
 
-![Walkthrough]()
+![Walkthrough](client/public/img/BookSearchWalkthrough.gif)
 
 
 
