@@ -4,9 +4,14 @@ const db = require("../models");
 // This file empties the Books collection and inserts the books below
 
 mongoose.connect(
-    process.env.MONGODB_URI ||
-    "mongodb://localhost/googleboks"
-);
+    process.env.MONGODB_URI || 'mongodb://localhost/Book',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false
+    }
+  );
 
 const bookSeed =
 {
