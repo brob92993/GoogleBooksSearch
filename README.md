@@ -48,4 +48,4 @@ The video below is a walkthrough of the application showing both the search and 
   [Employee Directory Repository](https://github.com/brob92993/GoogleBooksSearch.git)
 
   
-  [Deployed application]()
+  [Deployed application](https://booksearch92993.herokuapp.com/)
